@@ -7,7 +7,7 @@ jobs:
       - name: get code
         uses: actions/checkout@v4
       - name: install Nodejs
-        uses: acions/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: install dependancies
